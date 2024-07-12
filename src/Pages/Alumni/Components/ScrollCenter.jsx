@@ -1,6 +1,8 @@
 import styles from "../Style/scroll.module.css";
 import ProfileCards from './ProfileCards';
 
+
+
 function ScrollCenter({ currentYear }) {
   
   return (
@@ -28,28 +30,36 @@ function ScrollCenter({ currentYear }) {
       </div>
      </div>
       {currentYear === 2019 && (
-        <div>
+        <div className={styles.headingContainer}>
+        <div className={styles.heading}>Meet our team</div>
+        <div className={styles.year2023}>2019</div>
           <ProfileCards />
           {/* <div className={styles.two}></div>
           <div className={styles.one}></div>
           <div className={styles.three}></div> */}
         </div>)}
         {currentYear === 2020 && (
-          <div>
+        <div className={styles.headingContainer}>
+        <div className={styles.heading}>Meet our team</div>
+        <div className={styles.year2023}>2020</div>
             <div className={styles.three}></div>
             <div className={styles.one}></div>
             <div className={styles.two}></div>
           </div>
         )}
         {currentYear === 2021 && (
-          <div>
+         <div className={styles.headingContainer}>
+         <div className={styles.heading}>Meet our team</div>
+         <div className={styles.year2023}>2021</div>
             <div className={styles.one}></div>
             <div className={styles.two}></div>
             <div className={styles.three}></div>
           </div>
         )}
         {currentYear === 2022 && (
-          <div>
+         <div className={styles.headingContainer}>
+         <div className={styles.heading}>Meet our team</div>
+         <div className={styles.year2023}>2022</div>
             {/* <ProfileCards /> */}
             <div className={styles.two}></div>
             <div className={styles.one}></div>
@@ -57,11 +67,16 @@ function ScrollCenter({ currentYear }) {
           </div>
         )}
         {currentYear === 2023 && (
-          <div>
+        
+         <div className={styles.headingContainer}>
+          
+    <div className={styles.heading}>Meet our team</div>
+    <div className={styles.year2023}>2023</div>
+
+    <div className={styles.vl1}></div>
+    <div className={styles.hl1}></div>
+    
             <ProfileCards />
-            {/* <div className={styles.two}></div>
-            <div className={styles.one}></div>
-            <div className={styles.three}></div> */}
           </div>
         )}
       </div>

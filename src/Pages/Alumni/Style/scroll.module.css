@@ -70,6 +70,24 @@
     transform: translate(265%, 45%);
 }
 
+.hl1 {
+    border: #f4efef 0.25px solid;
+    width: 11vw;
+    height: 0%;
+    top: 150%;
+    left: 50%;
+    transform: translate(-180%, 1097%);
+    margin-bottom: -10vh;
+}
+
+.vl1 {
+    border-left: #FFF6F6 2px solid;
+    height: 17vh;
+    width: 13px;
+    top: 50%;
+    transform: translate(300%, -15%);
+}
+
 .caption {
     top: 50%;
     left: 50%;
@@ -105,3 +123,35 @@
     width: inherit;
     height: 75vh;
 }
+
+.heading {
+    color: #FFF6F6;
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #000;
+    font-family: Sprat;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -2.16px;
+    margin-left: 20px;
+    margin-top: 100px;
+  }
+  
+  .year2023 {
+    color: #FFF6F6;
+    font-family: "DM Mono";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -2.16px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .headingContainer {
+    text-align: left;
+  margin-left: 20px;
+  }
+  
